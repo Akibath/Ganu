@@ -8,6 +8,4 @@ class Block {
 
 }
 
-const block1 = new Block('data', 'hash', 'lastHash');
-
-console.log(block1);
+module.exports = Block;
