@@ -4,8 +4,8 @@
   "description": "Cryptocurrency",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node index.js"
+    "test": "jest --watchAll",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Akibath/Ganu/issues"
   },
-  "homepage": "https://github.com/Akibath/Ganu#readme"
+  "homepage": "https://github.com/Akibath/Ganu#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
 }
