@@ -1,5 +1,10 @@
-const Block = require('./Block');
+const Block = require('./block');
 
-const block1 = new Block(process.argv[2], process.argv[3], process.argv[4]);
+const block1 = new Block({
+	timestamp: 'Today',
+	lastHash: 'dadada',
+	hash: 'haaa',
+	data: 'datas'
+});
 
 console.log(block1);
