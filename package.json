@@ -1,0 +1,24 @@
+{
+  "name": "Ganu",
+  "version": "1.0.0",
+  "description": "Cryptocurrency",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akibath/Ganu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akibath/Ganu/issues"
+  },
+  "homepage": "https://github.com/Akibath/Ganu#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
